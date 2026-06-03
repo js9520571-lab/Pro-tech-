@@ -15,76 +15,49 @@
                 <span class="logo-text">Pro-Tech</span>
             </div>
             <ul class="nav-menu">
-                <li><a href="#home">Home</a></li>
                 <li><a href="#showcase">Gallery</a></li>
+                <li><a href="#features">Features</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
+    <!-- Hero Section with Video Background -->
+    <section class="hero-video">
+        <video autoplay muted loop class="background-video">
+            <source src="Make_video_add_movement_202605311223.mp4" type="video/mp4">
+        </video>
+        <div class="video-overlay"></div>
         <div class="hero-content">
-            <div class="animated-text">
-                <h1>Welcome to <span class="gradient-text">Pro-Tech</span></h1>
-                <p class="tagline">Cutting-Edge AI & Technology Innovation</p>
-                <div class="scroll-indicator">
-                    <span>Scroll to explore</span>
-                    <div class="scroll-arrow"></div>
-                </div>
-            </div>
+            <h1 class="hero-title">Welcome to <span class="gradient-text">Pro-Tech</span></h1>
+            <p class="hero-subtitle">Cutting-Edge AI & Technology Innovation</p>
+            <a href="#showcase" class="scroll-button">Explore Below</a>
         </div>
     </section>
 
-    <!-- Showcase Section -->
-    <section id="showcase" class="showcase">
-        <div class="container">
-            <h2 class="section-title">Our Digital Canvas</h2>
-            
-            <!-- Image Showcase -->
-            <div class="showcase-grid">
-                <div class="showcase-item">
-                    <div class="media-card image-card">
-                        <div class="card-header">
-                            <span class="media-type">Image</span>
-                            <span class="tech-badge">AI Vision</span>
-                        </div>
-                        <div class="image-container">
-                            <img src="ChatGPT%20Image%20Jun%203,%202026,%2008_08_36%20PM.png" 
-                                 alt="Pro-Tech AI Vision" 
-                                 class="showcase-media">
-                            <div class="image-overlay">
-                                <p>AI-Powered Visual Intelligence</p>
-                            </div>
-                        </div>
-                        <div class="card-footer">
-                            <p>Explore the intersection of visual AI and modern technology</p>
-                        </div>
+    <!-- Image Background Section -->
+    <section class="hero-image">
+        <div class="image-background">
+            <img src="ChatGPT%20Image%20Jun%203,%202026,%2008_08_36%20PM.png" alt="Pro-Tech AI Vision" class="background-image">
+        </div>
+        <div class="image-overlay"></div>
+        <div class="image-content">
+            <div class="content-box">
+                <h2>AI-Powered Innovation</h2>
+                <p>Experience the fusion of artificial intelligence and modern design. Our platform showcases the latest in AI capabilities combined with stunning visual experiences.</p>
+                <div class="features-list">
+                    <div class="feature-item">
+                        <span class="feature-icon">🤖</span>
+                        <span>Advanced AI</span>
                     </div>
-                </div>
-
-                <!-- Video Showcase -->
-                <div class="showcase-item">
-                    <div class="media-card video-card">
-                        <div class="card-header">
-                            <span class="media-type">Video</span>
-                            <span class="tech-badge">Motion Design</span>
-                        </div>
-                        <div class="video-container">
-                            <video class="showcase-media" controls>
-                                <source src="Make_video_add_movement_202605311223.mp4" type="video/mp4">
-                                Your browser does not support the video tag.
-                            </video>
-                            <div class="play-overlay">
-                                <svg class="play-icon" viewBox="0 0 24 24">
-                                    <path d="M8 5v14l11-7z"/>
-                                </svg>
-                            </div>
-                        </div>
-                        <div class="card-footer">
-                            <p>Dynamic motion and cutting-edge visual effects</p>
-                        </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">🎨</span>
+                        <span>Design Excellence</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">⚡</span>
+                        <span>High Performance</span>
                     </div>
                 </div>
             </div>
@@ -92,27 +65,27 @@
     </section>
 
     <!-- Features Section -->
-    <section class="features">
+    <section id="features" class="features">
         <div class="container">
             <h2 class="section-title">Why Pro-Tech?</h2>
             <div class="features-grid">
                 <div class="feature-card">
-                    <div class="feature-icon">🤖</div>
+                    <div class="feature-icon-large">🤖</div>
                     <h3>AI Intelligence</h3>
                     <p>Advanced AI algorithms powering next-generation solutions</p>
                 </div>
                 <div class="feature-card">
-                    <div class="feature-icon">🎨</div>
+                    <div class="feature-icon-large">🎨</div>
                     <h3>Design Innovation</h3>
                     <p>Cutting-edge design principles and visual excellence</p>
                 </div>
                 <div class="feature-card">
-                    <div class="feature-icon">⚡</div>
+                    <div class="feature-icon-large">⚡</div>
                     <h3>Performance</h3>
                     <p>Lightning-fast processing and real-time responsiveness</p>
                 </div>
                 <div class="feature-card">
-                    <div class="feature-icon">🔒</div>
+                    <div class="feature-icon-large">🔒</div>
                     <h3>Security</h3>
                     <p>Enterprise-grade security and data protection</p>
                 </div>
